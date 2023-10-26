@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+body {
+    background: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+     font-family: 'ubuntu' , sans-serif;
+     text-align: center;
+}
+nav ul li{
+    padding: 0 12px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(33, 30, 30);
+    color: white;
+}
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+  
+}
+.Brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.Container{
+    min-height: 63vh;
+    font-family: 'Varela Round' , sans-serif;
+    background-color:rgb(33, 30, 30);
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 25px ;
+   background-image: url('bg.jpg'),linear-gradient(blue, white);
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: rgb(33, 30, 30);
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i {
+    cursor: pointer;
+}
+#MyProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.SongItem{
+    height: 50px;
+    display: flex;
+    background-color: antiquewhite;
+    color: rgb(33, 30, 30);
+    border-radius: 20px;
+    margin: 15px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+.SongItem img {
+    width: 45px;
+    margin: 25px 0;
+    border-radius: 50%;
+    font-family: 'Varela Round' , sans-serif;
+
+}
+.TimeSpan{
+    margin: 0 23px;
+   
+}
+.TimeSpan i {
+    cursor: pointer;
+}
+.SongItemContainer{
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2); 
+    border-radius: 25px; 
+    backdrop-filter: blur(14px); 
+    background-color: rgba(244, 236, 236, 0.2); 
+    padding: 10px; 
+    text-align: center; 
+}
+.SongInfo{
+    position: relative;
+}
